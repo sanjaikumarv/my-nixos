@@ -113,8 +113,8 @@
 	docker
 	google-chrome
 	neovim
-        git
-        nomacs
+  git
+  nomacs
 	go
 	cowsay
 	gnome-tweaks
@@ -124,6 +124,7 @@
 	mongodb-compass
 	xdg-desktop-portal
 	xdg-desktop-portal-gtk
+	htop
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
