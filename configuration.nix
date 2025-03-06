@@ -125,6 +125,8 @@
 	xdg-desktop-portal
 	xdg-desktop-portal-gtk
 	htop
+  lazygit
+  oh-my-posh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
