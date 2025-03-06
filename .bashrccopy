@@ -1,0 +1,10 @@
+eval "$(oh-my-posh init bash --config ./wholespace.omp.json)"
+# eval "$(oh-my-posh init bash)"
+
+alias nix-rebuild-remove='sudo nixos-rebuild switch && sudo nix-collect-garbage -d'
+alias nixr='sudo nixos-rebuild switch'
+alias nixfr='sudo nixos-rebuild switch --flake'
+alias nixls='nixos-rebuild list-generations'
+alias nixclear='sudo nix-collect-garbage -d'
+alias nixrbp='sudo nixos-rebuild switch --rollback'
+alias nixrb='sudo nixos-rebuild switch --generation'
