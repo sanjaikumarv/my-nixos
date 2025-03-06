@@ -113,8 +113,8 @@
 	docker
 	google-chrome
 	neovim
-  git
-  nomacs
+        git
+        nomacs
 	go
 	cowsay
 	gnome-tweaks
@@ -123,11 +123,11 @@
 	docker-compose
 	mongodb-compass
 	htop
-  lazygit
-  oh-my-posh
-  xclip
-  ripgrep
-  postman
+        lazygit
+        oh-my-posh
+        xclip
+        ripgrep
+        postman
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
