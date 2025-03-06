@@ -122,11 +122,12 @@
 	zig
 	docker-compose
 	mongodb-compass
-	xdg-desktop-portal
-	xdg-desktop-portal-gtk
 	htop
   lazygit
   oh-my-posh
+  xclip
+  ripgrep
+  postman
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
