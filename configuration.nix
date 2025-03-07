@@ -131,6 +131,11 @@
   libreoffice
   ];
 
+  xdg.mimeApps.defaultApplications = {
+  "application/msword" = [ "libreoffice-writer.desktop" ];
+  "application/vnd.openxmlformats-officedocument.wordprocessingml.document" = [ "libreoffice-writer.desktop" ];
+  };
+ 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
