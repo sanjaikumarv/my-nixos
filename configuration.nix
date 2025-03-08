@@ -128,6 +128,7 @@
   xclip
   ripgrep
   libreoffice
+  postman
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
