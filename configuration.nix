@@ -13,7 +13,7 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  boot.kernelParams = [ "psmouse.synaptics_intertouch=0" ];
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -90,6 +90,10 @@
 
   # Install firefox.
   programs.firefox.enable = true;
+  # Ffinger-print
+  services.fprintd.enable = true;
+  services.fprintd.tod.enable = true;
+  services.fprintd.tod.driver = pkgs.libfprint-2-tod1-goodix;
 
   # enable gnome desktop environment
   services.xserver.displayManager.gdm.enable = true;
@@ -127,14 +131,10 @@
   oh-my-posh
   xclip
   ripgrep
-  postman
   libreoffice
+  fprintd
   ];
 
-  xdg.mimeApps.defaultApplications = {
-  "application/msword" = [ "libreoffice-writer.desktop" ];
-  "application/vnd.openxmlformats-officedocument.wordprocessingml.document" = [ "libreoffice-writer.desktop" ];
-  };
  
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
