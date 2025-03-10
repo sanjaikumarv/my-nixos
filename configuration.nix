@@ -129,8 +129,8 @@
   ripgrep
   libreoffice
   postman
-  yarn
   pnpm
+  yarn
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
