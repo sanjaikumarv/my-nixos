@@ -131,6 +131,7 @@
   postman
   pnpm
   yarn
+  stripe-cli
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
